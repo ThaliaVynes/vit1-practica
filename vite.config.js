@@ -8,9 +8,9 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        Inicio: path.resolve(__dirname, 'index.html'),
-        Informacion: path.resolve(__dirname, 'index2.html'),
-        Final: path.resolve(__dirname, 'index3.html'),
+        main: resolve(__dirname, 'index.html'),
+        contact: resolve(__dirname, 'index2.html'),
+        about: resolve(__dirname, 'index3.html'),
       },
     },
   },
